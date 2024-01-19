@@ -336,7 +336,7 @@
           </section>
 
           <!-- Pronostico Hora -->
-          <div
+          <section
             class="section hourly-forecast"
             aria-label="hourly forecast"
             data-hourly-forecast
@@ -516,12 +516,46 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </section>
+
+          <!-- Footer -->
+          <footer class="footer">
+            <p class="body-3">
+              Copyright 2024 ravenbbs. Todos los derechos reservados.
+            </p>
+            <p class="body-3">
+              Powered by
+              <a
+                href="https://openweathermap.org/"
+                title="Free OpenWeather Api"
+                target="_blank"
+                rel="noopener"
+              >
+                <img
+                  src="./assets/images/openweather.png"
+                  alt="OpenWeather Logo"
+                  width="150"
+                  height="30"
+                  loading="lazy"
+                />
+              </a>
+            </p>
+          </footer>
         </div>
 
-
-
+        <div class="loading" data-loading></div>
       </article>
     </main>
+
+    <!-- 404 section -->
+    <section class="error-content" data-error-content>
+      <h2 class="heading">404</h2>
+      <p class="body-1">Pagina no encontrada!</p>
+      <a href="#" class="btn-primary">
+        <span class="span">Ir al Inicio</span>
+      </a>
+
+    </section>
+
   </body>
 </html>
