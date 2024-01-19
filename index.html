@@ -99,5 +99,43 @@
         </div>
       </div>
     </header>
+
+    <main>
+      <article class="container">
+        <div class="content-left">
+          <!-- Clima actual -->
+          <section
+            class="section current-weather"
+            aria-label="current weather"
+            data-current-weather
+          >
+            <div class="card card-lg current-weather-card">
+              <h2 class="title-2 card-title">Ahora</h2>
+              <div class="weapper">
+                <p class="heading">25&deg;<sup>C</sup></p>
+                <img
+                  src="./assets/images/weather_icons/01d.png"
+                  alt="Overcast Cloud"
+                  width="64"
+                  height="64"
+                  class="weather-icon"
+                />
+              </div>
+              <p class="body-3">Overcast Cloud</p>
+              <ul class="meta-list">
+                <li class="meta-item">
+                  <span class="m-icon"> calendar_today </span>
+                  <p class="title-3 meta-text">Martes 16, febrero</p>
+                </li>
+                <li class="meta-item">
+                  <span class="m-icon"> location_on </span>
+                  <p class="title-3 meta-text">Ciudad, País</p>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </article>
+    </main>
   </body>
 </html>
