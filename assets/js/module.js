@@ -9,7 +9,9 @@ export const weekDayNames = [
   'Martes',
   'Miércoles',
   'Jueves',
-  'Viernes'
+  'Viernes',
+  'Sábado',
+  'Domingo'
 ]
 export const  monthNames = [
   'Ene',
